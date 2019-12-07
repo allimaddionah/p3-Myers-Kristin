@@ -1,0 +1,150 @@
+body {
+	background-image: url(bg.png);
+ background-repeat: no-repeat;
+   background-size: 100%;
+}
+li {
+  width: 17%;
+  display: inline-block;
+  text-align: center;
+  margin: 1%;
+  margin-top: 15%;
+  transition: background-color 1s;
+  font-size: 40px;
+  font-family: 'Source Serif Pro', serif;
+  margin: auto !important;
+  padding-top: 1em;
+  padding-left: 3em;
+}
+ul li p {
+  background-color: white;
+  border-radius: 0.6em;
+  padding: 15%;
+  margin: 0;
+  transition: background-color 1000ms;
+}
+
+.block1:hover, .block2:hover, .block3:hover, .block4:hover, .block5:hover, .block6:hover, .block7:hover, .block8:hover, .block9:hover, .block10:hover, .block11:hover, .block12:hover, .block13:hover, .block14:hover, .block15:hover, .block16:hover {
+    position: relative;
+    top: -10px;
+    cursor:pointer;
+    margin: 4px;
+}
+
+.cards {
+      margin: auto !important;
+    width: 70% !important;
+	    padding-top: 4em;
+}
+
+.block {
+  color: #FF0066;
+}
+.block-blue {
+  color: blue;
+}
+
+.block-yellow {
+  color: green;
+}
+
+.block-purple {
+  color: #330066;
+}
+
+.pink {
+  background-color: pink;
+  transition: background-color 1s;
+}
+
+.blue {
+  background-color: #66CCFF;
+  transition: background-color 1s;
+}
+
+.yellow {
+  background-color: #99FF99;
+  transition: background-color 1s;
+}
+
+.purple {
+  background-color: purple;
+  transition: background-color 1s;
+}
+
+.red {
+  background-color: red;
+  transition: background-color 1s;
+}
+
+.orange {
+  background-color: yellow;
+  transition: background-color 1s;
+}
+.hide {
+  display: none;
+}
+
+.hide2 {
+  display: none;
+}
+
+.hide3 {
+  display: none;
+}
+
+
+#fortune
+{
+
+  padding: 5%;
+  color: white;
+  font-family: 'Calistoga', cursive;
+  width: 65%;
+  display: inline-block;
+  text-align: center;
+  margin: 10%;
+  margin-top: 3%;
+  transition: background-color 1s;
+  font-size: 40px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.strbtn {
+	font-size: 2em;
+    background: white;
+    border-radius: 75px;
+    color: #d70000;
+    font-family: fantasy;
+    border: 2px solid black;
+    padding: 24px 96px;
+}
+
+.row {
+	    margin-right: -15px;
+		margin-left: -15px;
+		text-align:center;
+ }
+
+ .col-sm-3, col-sm-6, col-sm-12 {
+    float: left;
+}
+.col-sm-3 {
+    width: 25%;
+	text-align: center;
+}
+
+.col-sm-12 {
+	width: 100%;
+	text-align: center;
+}
+.toprow {
+	    margin-top: 8em;
+}
