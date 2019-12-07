@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--[if lt IE 9]>
+		  <script src="js/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Project 3 Fortune Teller</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="row toprow">
+          <span class="strbtn">Find out your Fortune!!</span>
+        </div>
+        <div class="row cards">
+          <div class="col-sm-3 col-md-6">
+
+          </div>
+       </div>
+      </div>
+         <section>
+           <ul class="" id="layer-one">
+             <li class= "block1">
+               <p class="block-blue">Blue</p>
+             </li>
+             <li class= "block2">
+               <p class="block">Pink</p>
+             </li>
+             <li class= "block3">
+               <p class="block-yellow">Green</p>
+             </li>
+             <li class= "block4">
+               <p class="block-purple">Purple</p>
+             </li>
+           </ul>
+           <ul class="hide" id="layer-two">
+             <li class= "block5">
+               <p class="block-2">2</p>
+             </li>
+             <li class= "block6">
+               <p class="block-2">4</p>
+             </li>
+             <li class= "block7">
+               <p class="block-2">7</p>
+             </li>
+             <li class= "block8">
+               <p class="block-2">9</p>
+             </li>
+           </ul>
+           <ul class="hide2" id="layer-three">
+             <li class= "block9">
+               <p class="block-3">1</p>
+             </li>
+             <li class= "block10">
+               <p class="block-3">3</p>
+             </li>
+             <li class= "block11">
+               <p class="block-3">5</p>
+             </li>
+             <li class= "block12">
+               <p class="block-3">8</p>
+             </li>
+           </ul>
+           <ul class="hide3" id="layer-four">
+             <li  class= "block13">
+               <p class="block-4" onclick="tellFortune()">Pick Door Number 1</p>
+             </li>
+             <li  class= "block14">
+               <p class="block-4" onclick="tellFortune()">Pick Door Number 2</p>
+             </li>
+             <li  class= "block15">
+               <p class="block-4" onclick="tellFortune()">Pick Door Number 3</p>
+             </li>
+             <li  class= "block16">
+               <p class="block-4" onclick="tellFortune()">Pick Door Number 4</p>
+             </li>
+               <p class="block-4" id="fortune"></p>
+           </ul>
+         </section>
+</main>
+<footer>
+</footer>
+<script src="lib/main.js"></script>
+</body>
+</html>
