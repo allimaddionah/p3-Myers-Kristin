@@ -148,3 +148,103 @@ ul li p {
 .toprow {
 	    margin-top: 8em;
 }
+/* 1580px Media query starts****************************/
+@media (max-width: 1580px) {
+
+	li {
+	width: 20%;
+}
+}
+/* 1580px Media query ends****************************/
+/* 1470px Media query starts****************************/
+@media (max-width: 1470px) {
+
+	.toprow {
+	    margin-top: 4em;
+	}
+}
+/* 1470px Media query ends****************************/
+
+/* 1300px Media query starts****************************/
+@media (max-width: 1300px) {
+
+	.toprow {
+			margin-top: 2em;
+	}
+
+	.cards {
+	    margin: auto !important;
+	    width: 70% !important;
+	    padding-top: 0em;
+}
+li {
+    width: 24%;
+
+}
+
+/* 1300px Media query ends****************************/
+
+/* 1000px Media query starts****************************/
+@media (max-width: 1000px) {
+
+	.toprow {
+			margin-top: 2em;
+	}
+
+	.strbtn {
+	    font-size: 2em;
+	    padding: 17px 80px;
+}
+
+li {
+    padding-left: 3em;
+    width: 28%;
+}
+	body {
+	 background-color: #000000;
+
+	}
+}
+/* 1000px Media query ends****************************/
+
+/* 900px Media query starts****************************/
+@media (max-width: 900px) {
+
+	li {
+	    padding-left: 2em;
+			width:35%;
+	}
+}
+/* 900px Media query ends****************************/
+/* 750px Media query starts****************************/
+@media (max-width: 750px) {
+
+	li {
+	    padding-left: 0em;
+	    width: 50%;
+	    padding-inline-start: 3em;
+		}
+}
+/* 750px Media query ends****************************/
+/* 650px Media query starts****************************/
+@media (max-width: 650px) {
+
+	li {
+	    padding-left: 2em;
+			width: 59%;
+	}
+}
+/* 650px Media query ends****************************/
+/* 550px Media query starts****************************/
+@media (max-width: 550px) {
+
+	li {
+	    padding-left: 2em;
+			width: 68%;
+	}
+	.strbtn {
+    font-size: 1.5em;
+    padding: 13px 57px;
+}
+}
+/* 550px Media query ends****************************/
